@@ -1,0 +1,10 @@
+{
+  "name": "hardhat-project",
+  "scripts": {
+    "deploy:oracle:sepolia": "hardhat run scripts/deploy-oracle.ts --network sepolia"
+  },
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^5.0.0",
+    "hardhat": "^2.22.5"
+  }
+}
